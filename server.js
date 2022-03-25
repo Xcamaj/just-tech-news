@@ -15,3 +15,15 @@ app.use(routes);
 sequelize.sync({ force: false }).then(() => {
     app.listen(PORT, () => console.log('Now listening'));
 });
+
+// {
+//     "username": "tani",
+//         "email": "tani@gmail.com",
+//             "password": "tani"
+// }
+
+// {
+//     "title": "google",
+//         "post_url": "google.com",
+//             "post_id": 1
+// }
